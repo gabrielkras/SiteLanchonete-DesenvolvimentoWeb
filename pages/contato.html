@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='utf-8'>
+    <link type="text/css" rel='stylesheet' href="../css/index.css">
+    <link type="text/css" rel='stylesheet' href="../css/contato.css">
+  </head>
+  <body>
+    <header>
+      <img class='logotipo' src='../imagens/Logotipo.png' alt='Logotipo Krasz Lanches' title='Krasz Lanches'>
+      <h1> O Melhor Lanche da Sua Cidade </h1>
+      <p class='telefone'> Telefone: (19) 3333-3000 </p>
+      <nav>
+        <form class='navegacao' action='../index.html'>
+          <button class='menu' type="submit"> Ínicio </button>
+        </form>
+        <form class='navegacao' action='cardapio.html'>
+          <button class='menu' type="submit"> Cardápio </button>
+        </form>
+        <form class='navegacao' action='sobre.html'>
+          <button class='menu' type="submit"> Sobre </button>
+        </form>
+        <form class='navegacao' action='contato.html'>
+          <button class='menu' type="submit"> Contato </button>
+        </form>
+      </nav>
+    </header>
+    <section>
+      <h2> Entre em Contato Conosco </h2>
+      <p> Para entrar em contato, basta preencher o formulário abaixo, caso deseje realizar
+        um orçamento basta selecionar a opção abaixo antes de enviar o formulário.</p>
+      <form action='obrigado.html'>
+        <label> Nome </label>
+        <input type="text" name='nome' required/>
+        <label> Telefone </label>
+        <input type="tel" name='telefone' required />
+        <label> E-mail </label>
+        <input type="email" name='nome' required/>
+        <label> Escolha um Motivo para Contato </label>
+        <select value='Escolha um Tipo'>
+          <option> ------------------</option>
+          <option> Realizar Orçamento </option>
+          <option> Entrar em Contato </option>
+        </select>
+        <label> Mensagem </label>
+        <textarea></textarea>
+        <button class='botao' type='submit'> Enviar </button>
+        <button class='botao' type='reset'> Limpar </button>
+      </form>
+    </section>
+    <footer>
+        <p> &#169; Copyright 2015. Todos os Direitos Reservados </p>
+    </footer>
+  </body>
+</html>

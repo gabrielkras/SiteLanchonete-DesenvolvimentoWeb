@@ -1,0 +1,116 @@
+/**********************************************
+ *     TRABALHO 01 - DESENVOLVIMENTO WEB      *
+ *                                            *
+ * AUTOR: Gabriel Sousa Kraszczuk             *
+ * PRONTUÁRIO: 135025-1                       *
+ * DATA: 28/09/2015                           *
+ * PAGINA HTML: index.html                    *
+ **********************************************/
+ @font-face{
+ 	font-family: OswaldLocal;
+ 	src:url(../fonts/Oswald-Regular.ttf);
+ }
+ body{
+   width: 960px;
+   margin: 0 auto;
+   font-family: OswaldLocal;
+   background-color:#fcf9d8;
+ }
+ h1{
+   margin 0 auto;
+   padding-top: 30px;
+   padding-left: 150px;
+   float: left;
+   color: #a90000;
+ }
+ h2{
+   padding-left: 30px;
+   padding-top: 30px;
+ }
+ nav{
+   float: left;
+   height: 100px;
+
+ }
+ header{
+    height: 250px;
+    border-radius: 10px;
+    background-color: #fffab8;
+    box-shadow: 0 1px 16px #000000;
+ }
+ section{
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0 1px 16px #000000;
+ }
+ table{
+   width: 100%;
+   padding-left: 30px;
+   padding-right: 30px;
+   height: 300px;
+ }
+ td{
+   width: 224px;
+   text-align: center;
+ }
+ .logotipo{
+   float: left;
+   padding-top: 20px;
+   padding-left: 20px;
+   width: 200px;
+   height: 200px;
+ }
+ .imagens-ofertas{
+   padding-left: 40px;
+   width: 128px;
+   height: 128px;
+ }
+ .telefone{
+   float: right;
+   padding-right: 15px;
+ }
+ .navegacao{
+   float:left;
+   margin-top: 40px;
+   margin-left: 10px;
+   padding: 0px 10px;
+ }
+ .menu{
+   width: 140px;
+   height: 50px;
+   font-family: OswaldLocal;
+   font-size: 15px;
+   border: none;
+   background-color: #fadd60;
+ }
+ .menu:hover{
+   background-color: #a90000;
+   color:#ffffff;
+ }
+ .titulo-ofertas{
+   text-align: center;
+   font-size: 28px;
+  color: #690ee8;
+ }
+ .observacoes{
+   color: #545452;
+   font-size: 15px;
+   padding-left: 20px;
+ }
+ .preco{
+   color: #943333;
+   font-size: 22px;
+ }
+ .botao{
+   float: right;
+ }
+ footer{
+   padding-left: 350px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: #fffab8;
+   box-shadow: 0 1px 16px #000000;
+ }
+ footer p{
+   padding-top: 12px;
+ }
